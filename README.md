@@ -1,4 +1,4 @@
-# ⚔️ Alfari Design — Demon Slayer Fan Website
+# ⚔️ Alfari Design — Akaza Website V2
 
 Website fan-made bertema **Demon Slayer: Kimetsu no Yaiba**, menampilkan Akaza, Tanjiro, Shinobu, dan Giyu dalam pengalaman visual yang sinematik, interaktif, dan modern.
 
@@ -81,10 +81,10 @@ AkazaWebsiteV2/
 ## 📱 Temukan Saya
 
 <p align="center">
-  <a href="https://www.tiktok.com/@USERNAME_TIKTOK">
+  <a href="[https://www.tiktok.com/@USERNAME_TIKTOK](https://www.tiktok.com/@mie_ayamm__3)">
     <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
   </a>
-  <a href="https://www.instagram.com/USERNAME_INSTAGRAM/">
+  <a href="[https://www.instagram.com/USERNAME_INSTAGRAM/](https://www.instagram.com/alfariyusuff_/)">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
