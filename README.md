@@ -1,62 +1,115 @@
 # ⚔️ Alfari Design — Demon Slayer Fan Website
 
-Website fan-made bertema **Demon Slayer: Kimetsu no Yaiba**, menampilkan Akaza, Tanjiro, Shinobu, dan Giyu dalam pengalaman visual yang sinematik dan interaktif.
+Website fan-made bertema **Demon Slayer: Kimetsu no Yaiba**, menampilkan Akaza, Tanjiro, Shinobu, dan Giyu dalam pengalaman visual yang sinematik, interaktif, dan modern.
 
-> Dibuat sebagai proyek penggemar dan portofolio. Proyek ini tidak berafiliasi dengan atau didukung oleh pemegang hak *Demon Slayer: Kimetsu no Yaiba*.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" alt="GSAP">
+</p>
+
+<p align="center">
+  <b>🎴 Dibuat dengan kreativitas, terinspirasi oleh dunia anime.</b>
+</p>
+
+> Proyek ini merupakan proyek penggemar dan portofolio pribadi. Proyek ini tidak berafiliasi dengan, disponsori oleh, atau didukung secara resmi oleh pemegang hak *Demon Slayer: Kimetsu no Yaiba*.
+
+---
 
 ## ✨ Fitur
 
-- Hero karakter dengan video latar dan teks animasi.
-- Galeri gambar bergerak serta bagian duel dengan scroll horizontal.
-- Animasi scroll, parallax, penghitung statistik, dan efek interaktif menggunakan GSAP.
-- Layout responsif untuk desktop dan perangkat mobile.
-- Pengaturan gerak dikurangi mengikuti preferensi `prefers-reduced-motion`.
+- ⚔️ **Hero Karakter** — Tampilan karakter dengan video latar dan teks animasi.
+- 🎬 **Galeri Visual** — Galeri gambar bergerak dengan efek visual yang dinamis.
+- 🔥 **Bagian Duel** — Pengalaman scroll horizontal untuk menampilkan pertarungan karakter.
+- 🎞️ **Animasi Sinematik** — Efek scroll, parallax, penghitung statistik, dan interaksi menggunakan GSAP.
+- 📱 **Desain Responsif** — Tata letak yang menyesuaikan desktop dan perangkat mobile.
+- ♿ **Reduced Motion** — Mendukung preferensi `prefers-reduced-motion` untuk mengurangi animasi sesuai pengaturan perangkat.
 
 ## 🧰 Teknologi
 
 | Teknologi | Kegunaan |
-| --- | --- |
-| HTML5 | Struktur halaman |
-| CSS3 | Tampilan, layout, dan responsivitas |
-| JavaScript | Interaksi dan animasi |
-| [GSAP 3](https://gsap.com/) + ScrollTrigger | Animasi dan efek scroll |
-| [Google Fonts](https://fonts.google.com/) | Tipografi |
+|---|---|
+| HTML5 | Struktur dan konten halaman |
+| CSS3 | Tampilan visual, layout, dan responsivitas |
+| JavaScript | Interaksi dan logika website |
+| [GSAP 3](https://gsap.com/) | Animasi dan efek visual |
+| [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) | Animasi berbasis posisi scroll |
+| [Google Fonts](https://fonts.google.com/) | Tipografi website |
 
-## 🚀 Menjalankan secara lokal
+## 🚀 Menjalankan Secara Lokal
 
-Tidak perlu proses build atau instalasi paket.
+Proyek ini menggunakan HTML, CSS, dan JavaScript biasa sehingga tidak memerlukan proses build.
 
-1. Unduh atau clone repository ini.
-2. Buka folder proyek.
-3. Jalankan `index.html` di browser.
+**1. Clone repository**
 
-Untuk hasil yang lebih konsisten, jalankan server lokal dari folder proyek, misalnya:
+```bash
+git clone https://github.com/gyzeennnpro-sudo/akazawebv2.git
+```
+
+**2. Masuk ke folder proyek**
+
+```bash
+cd akazawebv2
+```
+
+**3. Jalankan website**
+
+Buka file `index.html` menggunakan browser.
+
+Untuk pengalaman pengembangan yang lebih konsisten, jalankan server lokal menggunakan:
 
 ```bash
 npx serve .
 ```
 
-Lalu buka alamat lokal yang ditampilkan di terminal. Koneksi internet diperlukan untuk memuat GSAP dari CDN dan font Google.
+Kemudian buka alamat lokal yang ditampilkan di terminal.
 
-## 📁 Struktur proyek
+> **Catatan:** Koneksi internet diperlukan untuk memuat library GSAP dari CDN dan font Google apabila website menggunakan layanan tersebut.
+
+## 📁 Struktur Proyek
 
 ```text
-.
-├── index.html       # Konten dan struktur halaman
+AkazaWebsiteV2/
+├── index.html       # Struktur dan konten halaman
 ├── style.css        # Gaya visual dan layout responsif
 ├── script.js        # Animasi dan interaksi
-└── img/             # Gambar dan video yang digunakan halaman
+├── img/             # Gambar dan video website
+└── README.md        # Dokumentasi proyek
 ```
 
-## 🖼️ Hak cipta dan penggunaan aset
+## 📱 Temukan Saya
 
-- **Kode sumber asli proyek ini** dilisensikan berdasarkan MIT. Lihat [LICENSE](./LICENSE).
-- **Gambar, ilustrasi, karakter, nama, logo, dan video Demon Slayer** bukan bagian dari lisensi MIT. Hak atas materi tersebut tetap berada pada pemilik atau pemegang hak masing-masing.
-- Pencantuman materi dalam proyek ini bukan pernyataan bahwa pembuat memiliki atau memberi izin atas materi tersebut. Atribusi saja tidak selalu memberikan hak untuk menggunakan atau mendistribusikannya.
-- Sebelum menggunakan atau menyebarkan aset media dari folder `img/`, pastikan Anda memiliki izin atau dasar penggunaan yang sesuai. Ganti aset tersebut dengan materi berlisensi milik Anda jika diperlukan.
+<p align="center">
+  <a href="https://www.tiktok.com/@USERNAME_TIKTOK">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
+  </a>
+  <a href="https://www.instagram.com/USERNAME_INSTAGRAM/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+</p>
+
+Ganti `USERNAME_TIKTOK` dan `USERNAME_INSTAGRAM` pada tautan di atas dengan username akun media sosial kamu.
+
+## 🖼️ Hak Cipta dan Penggunaan Aset
+
+- **Kode sumber asli** yang dibuat untuk proyek ini dilisensikan berdasarkan MIT, sesuai ketentuan pada file `LICENSE`.
+- **Karakter, nama, logo, gambar, ilustrasi, musik, dan video Demon Slayer** tetap menjadi hak pemilik atau pemegang hak masing-masing dan tidak tercakup dalam lisensi MIT.
+- Proyek ini merupakan karya penggemar tidak resmi. Pencantuman kredit tidak otomatis memberikan izin penggunaan aset pihak ketiga.
+- Pastikan kamu memiliki izin atau dasar penggunaan yang sesuai sebelum menggunakan kembali atau mendistribusikan aset media dari folder `img/`.
 
 ## 📜 Lisensi
 
-MIT berlaku **hanya untuk kode sumber asli** yang dibuat untuk proyek ini. Lisensi tersebut tidak mencakup aset pihak ketiga, termasuk gambar dan video karakter.
+Kode sumber asli proyek ini menggunakan **MIT License**. Lisensi tersebut hanya berlaku untuk kode yang dibuat untuk proyek ini dan tidak mencakup aset pihak ketiga.
 
-Copyright (c) 2026 Alfari Design
+Lihat file [LICENSE](./LICENSE) untuk ketentuan selengkapnya.
+
+---
+
+<p align="center">
+  <b>⚔️ ALFARI DESIGN ⚔️</b>
+  <br>
+  Dibuat dengan kreativitas, animasi, dan kecintaan terhadap dunia anime.
+  <br><br>
+  © 2026 Alfari Design
+</p>
