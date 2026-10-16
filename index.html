@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfari Design</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Shippori+Mincho+B1:wght@700;800&family=Lora:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="loader">
+  <div class="loader-num"><span id="count">0</span>%</div>
+  <div class="loader-bar"><i></i></div>
+</div>
+<canvas class="comet"></canvas>
+<div class="progress"></div>
+
+<nav class="nav">
+  <a href="#akaza">Akaza</a>
+  <a href="#tanjiro">Tanjiro</a>
+  <a href="#duel">Duel</a>
+  <a href="#shinobu">Shinobu</a>
+  <a href="#giyu">Giyu</a>
+  <a href="#end">Akhir</a>
+</nav>
+
+<!-- HERO AKAZA -->
+<section class="akaza-bg" id="akaza">
+  <video autoplay loop muted playsinline disablepictureinpicture class="parallax-video">
+    <source src="img/akaza.mp4" type="video/mp4">
+  </video>
+  <div class="shade"></div>
+  <div class="akaza-content">
+    <p class="sub">Upper Moon Three</p>
+    <h1 class="title" aria-label="AKAZA">
+      <span>A</span><span>K</span><span>A</span><span>Z</span><span>A</span>
+    </h1>
+  </div>
+  <div class="scroll-hint">Scroll<i></i></div>
+</section>
+
+<!-- TANJIRO -->
+<section class="tanjiro-bg" id="tanjiro">
+  <video autoplay loop muted playsinline disablepictureinpicture class="parallax-video">
+    <source src="img/tanjiro333.mp4" type="video/mp4">
+  </video>
+  <div class="shade"></div>
+
+  <div class="tanjiro-content">
+    <h2 class="split">Tanjiro</h2>
+    <p>Anak penjual arang yang kehilangan keluarganya, lalu memilih terus berjalan demi adiknya. Napas air yang tenang dan Hinokami Kagura yang membara membuatnya bertahan di depan lawan yang jauh lebih kuat.</p>
+  </div>
+
+  <div class="img-runing">
+    <div class="runing-up">
+      <img src="img/Akaza3.jpeg" alt="Akaza"><img src="img/akaza2.jpeg" alt="Akaza"><img src="img/Akaza1.jpeg" alt="Akaza"><img src="img/akaza4.jpeg" alt="Akaza"><img src="img/akaza5.jpeg" alt="Akaza"><img src="img/akaza6.jpeg" alt="Akaza"><img src="img/akaza7.jpeg" alt="Akaza">
+    </div>
+    <div class="runing-down">
+      <img src="img/tanjiro1.jpeg" alt="Tanjiro"><img src="img/tanjiro5.jpeg" alt="Tanjiro"><img src="img/tanjiro3.jpeg" alt="Tanjiro"><img src="img/tanjiro7.jpeg" alt="Tanjiro"><img src="img/tanjiro4.jpeg" alt="Tanjiro"><img src="img/tanjiro6.jpeg" alt="Tanjiro"><img src="img/tanjiro2.jpeg" alt="Tanjiro">
+    </div>
+  </div>
+</section>
+
+<!-- BAND KANJI -->
+<div class="band" aria-hidden="true">
+  <div class="band-row">
+    <span>鬼滅の刃</span><span class="out">Akaza</span><span>炎の呼吸</span><span class="out">Tanjiro</span><span>破壊殺</span><span class="out">Duel</span>
+  </div>
+</div>
+
+<!-- DUEL: horizontal scroll -->
+<section class="duel" id="duel">
+  <div class="duel-track">
+    <div class="panel intro">
+      <h2 class="split">Dua jalan, satu pertarungan</h2>
+      <p>Geser terus ke bawah. Halaman akan berjalan ke samping.</p>
+    </div>
+
+    <div class="panel card akaza-card">
+      <div class="c-inner">
+        <figure class="c-img"><img src="img/akaza6.jpeg" alt="Akaza saat bertarung" loading="lazy"><span class="c-tag">Upper Moon 3</span></figure>
+        <div class="c-body">
+          <span class="c-no">01</span>
+          <h3>Kompas Kematian</h3>
+          <p>Pola di tubuh Akaza menyala tiap dia mengunci lawan. Setiap gerakan lawan terbaca sebelum terjadi.</p>
+          <div class="c-stats"><div class="bar"><label>Kekuatan<b>98</b></label><span><i style="width:98%"></i></span></div><div class="bar"><label>Kecepatan<b>90</b></label><span><i style="width:90%"></i></span></div><div class="bar"><label>Insting<b>96</b></label><span><i style="width:96%"></i></span></div></div>
+          <small class="c-note">Penilaian versi penggemar</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel card tanjiro-card">
+      <div class="c-inner">
+        <figure class="c-img"><img src="img/tanjiro3.jpeg" alt="Tanjiro dengan api" loading="lazy"><span class="c-tag">Pemburu Iblis</span></figure>
+        <div class="c-body">
+          <span class="c-no">02</span>
+          <h3>Hinokami Kagura</h3>
+          <p>Tarian api warisan keluarganya. Semakin lama bertarung, semakin panas dan tajam gerakannya.</p>
+          <div class="c-stats"><div class="bar"><label>Kekuatan<b>80</b></label><span><i style="width:80%"></i></span></div><div class="bar"><label>Kecepatan<b>86</b></label><span><i style="width:86%"></i></span></div><div class="bar"><label>Tekad<b>100</b></label><span><i style="width:100%"></i></span></div></div>
+          <small class="c-note">Penilaian versi penggemar</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel card akaza-card">
+      <div class="c-inner">
+        <figure class="c-img"><img src="img/akaza7.jpeg" alt="Akaza serius" loading="lazy"><span class="c-tag">Upper Moon 3</span></figure>
+        <div class="c-body">
+          <span class="c-no">03</span>
+          <h3>Tinju yang Tak Pernah Berhenti</h3>
+          <p>Akaza bertarung dengan tangan kosong. Ia menghormati petarung yang kuat, apa pun bentuknya.</p>
+          <div class="c-stats"><div class="bar"><label>Kekuatan<b>99</b></label><span><i style="width:99%"></i></span></div><div class="bar"><label>Ketahanan<b>95</b></label><span><i style="width:95%"></i></span></div><div class="bar"><label>Fokus<b>92</b></label><span><i style="width:92%"></i></span></div></div>
+          <small class="c-note">Penilaian versi penggemar</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel card tanjiro-card">
+      <div class="c-inner">
+        <figure class="c-img"><img src="img/tanjiro1.jpeg" alt="Tanjiro dengan napas air" loading="lazy"><span class="c-tag">Pemburu Iblis</span></figure>
+        <div class="c-body">
+          <span class="c-no">04</span>
+          <h3>Napas Air</h3>
+          <p>Gerakan mengalir yang menjadi dasar semua tekniknya, sebelum api ikut menyala.</p>
+          <div class="c-stats"><div class="bar"><label>Kekuatan<b>74</b></label><span><i style="width:74%"></i></span></div><div class="bar"><label>Kelincahan<b>88</b></label><span><i style="width:88%"></i></span></div><div class="bar"><label>Tekad<b>100</b></label><span><i style="width:100%"></i></span></div></div>
+          <small class="c-note">Penilaian versi penggemar</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KUTIPAN -->
+<section class="quote">
+  <p id="quoteText">“Api tidak menang karena lebih panas, tetapi karena ia menolak padam. Bulan tidak menang karena lebih tinggi, tetapi karena ia tak pernah lelah bersinar.”</p>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stat"><b data-n="3">0</b><span>Peringkat Upper Moon Akaza</span></div>
+  <div class="stat"><b data-n="14">0</b><span>Foto di galeri berjalan</span></div>
+  <div class="stat"><b data-n="100">0</b><span>Persen tekad Tanjiro</span></div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline">
+  <h2 class="split">Alur pertemuan</h2>
+  <div class="tl">
+    <i class="tl-line"></i>
+    <div class="tl-item">
+      <figure><img src="img/akaza6.jpeg" alt="Akaza saat pertempuran di Kereta Mugen" loading="lazy"></figure>
+      <div class="tl-text"><h3>Kereta <span class="grad">Mugen</span></h3><p>Akaza pertama kali muncul dan menunjukkan betapa jauh jarak kekuatan antara iblis dan pemburu.</p></div>
+    </div>
+    <div class="tl-item">
+      <figure><img src="img/tanjiro2.jpeg" alt="Tanjiro dengan tekad menyala" loading="lazy"></figure>
+      <div class="tl-text"><h3>Bekas luka dan <span class="grad">tekad</span></h3><p>Tanjiro belajar bahwa bertahan hidup saja tidak cukup. Ia harus jadi lebih kuat.</p></div>
+    </div>
+    <div class="tl-item">
+      <figure><img src="img/akaza4.jpeg" alt="Akaza di Kastil Tak Terbatas" loading="lazy"></figure>
+      <div class="tl-text"><h3>Kastil Tak <span class="grad">Terbatas</span></h3><p>Pertemuan kedua, dengan taruhan yang jauh lebih besar untuk kedua pihak.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHINOBU -->
+<section class="char-bg shinobu-bg" id="shinobu">
+  <video autoplay loop muted playsinline disablepictureinpicture class="parallax-video">
+    <source src="img/shinobu_wpp.mp4" type="video/mp4">
+    <source src="img/shinobu-wpp.mp4" type="video/mp4">
+  </video>
+  <div class="shade"></div>
+  <div class="shinobu-content">
+    <p class="char-eyebrow">Insect Hashira</p>
+    <h2 class="title2" aria-label="SHINOBU"><span>S</span><span>H</span><span>I</span><span>N</span><span>O</span><span>B</span><span>U</span></h2>
+  </div>
+</section>
+
+<!-- GIYU -->
+<section class="giyu" id="giyu">
+  <div class="giyu-top">
+    <div class="giyu-collage">
+      <figure class="gc gc1" data-speed="-70"><img src="img/giyu.jpg" alt="Giyu Tomioka" loading="lazy"></figure>
+      <figure class="gc gc2" data-speed="90"><img src="img/giyu4.jpg" alt="Giyu menghunus pedang" loading="lazy"></figure>
+      <figure class="gc gc3" data-speed="-40"><img src="img/giyu6.jpg" alt="Giyu bertarung" loading="lazy"></figure>
+    </div>
+    <div class="giyu-copy">
+      <p class="giyu-eyebrow">Water Hashira</p>
+      <h2 class="giyu-name">GIYU</h2>
+      <p>Pendekar air yang pendiam. Gerakannya setenang arus sungai, tetapi tebasannya tegas dan tidak ragu. Ia jarang bicara, tetapi selalu hadir saat dibutuhkan.</p>
+      <div class="chips"><span>Napas Air</span><span>Hashira Air</span><span>Tenang</span></div>
+    </div>
+  </div>
+  <div class="giyu-grid">
+    <figure><img src="img/giyu1.jpg" alt="Giyu menoleh" loading="lazy"><figcaption>Sunyi</figcaption></figure>
+    <figure><img src="img/giyu3.jpg" alt="Giyu siaga" loading="lazy"><figcaption>Siaga</figcaption></figure>
+    <figure><img src="img/giyu5.jpg" alt="Giyu napas air" loading="lazy"><figcaption>Mengalir</figcaption></figure>
+  </div>
+</section>
+
+<!-- AKHIR -->
+<section class="end" id="end">
+  <h2 class="big"><span>Api</span> <span>atau</span> <span>Bulan?</span></h2>
+  <p class="end-by">Alfari Design</p>
+  <button class="btn" id="btnTop">Kembali ke atas</button>
+</section>
+
+<footer class="site-foot">
+  <div class="sf-grid">
+    <div class="sf-brand">
+      <span class="sf-logo">Alfari Design</span>
+      <p>Situs penggemar Akaza dan Tanjiro, dibuat dengan HTML, CSS, dan GSAP.</p>
+    </div>
+    <nav class="sf-links" aria-label="Footer">
+      <a href="#akaza">Akaza</a>
+      <a href="#tanjiro">Tanjiro</a>
+      <a href="#duel">Duel</a>
+      <a href="#shinobu">Shinobu</a>
+      <a href="#giyu">Giyu</a>
+      <a href="#end">Akhir</a>
+    </nav>
+  </div>
+  <div class="sf-bottom">
+    <span>© 2026 Alfari Design</span>
+    <a href="#akaza">Kembali ke atas ↑</a>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
