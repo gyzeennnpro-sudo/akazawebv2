@@ -115,7 +115,7 @@ Lihat file [LICENSE](./LICENSE) untuk ketentuan selengkapnya.
 <p align="center">
   <b>⚔️ ALFARI DESIGN ⚔️</b>
   <br>
-  Dibuat dengan kreativitas. Terinspirasi oleh anime. Dikembangkan dengan kode.
+  Dibuat dengan kreativitas. Terinspirasi oleh anime Demon Slayer. Dikembangkan dengan kode.
   <br><br>
   © 2026 Alfari Design
 </p>
